@@ -1,0 +1,210 @@
+#include<stdio.h>
+voidsort(int*p,int n)
+{
+    int i,j;
+    for(i=0;i<n-1;i++)
+    {
+
+    for(j=i+1;j<n;i++)
+    {
+        if(p[i]>p[j])
+        {
+            int temp=p[i];
+            p[j]=p[i];
+            p[i]=temp;
+        }
+    }
+    int main()
+    {
+
+        int a[10]={23,53,13,4,45,23,54,5,235,62,134}
+
+        sort(a,10);
+        int i;
+        for(i=0;i<10;i++)
+        {
+            printf("%d",a[i]);
+        }
+        return 0;
+        }
+
+            #include<stdio.h>
+            #include<string.h>
+
+            int main()
+            {
+                char s1[10],s2[10],s3[10];
+                printf("Enter string1");
+                gets(s1);
+                printf("Enter string2");
+                gets(s2);
+                printf("Befor swapping");
+                printf("string1:%s",s1);
+
+                printf("string2:%s",s2);
+
+                strcpy(s3,s1);
+                strcpy(s1,s3);
+                printf("After Swapping: ");
+                printf("String 1:%s",s1);
+                printf("String 2:%s",s2);
+            }
+
+            #include<stdio.h>
+            void swap(int *xp,int*yp}
+                      {
+                          int temp=*xp;
+                          *xp=*yp;
+                          *yp=temp;
+                      }
+                      void sort(int *ptr,int size)
+                      {
+                          int i,j,min_idx;
+                          for(i=0;i<n-1;i++)
+                          {
+                              min_idx=i;
+                              for(j=i+1;j<n;j++)
+                                if(arr[j]<arr[min_idx])
+                                min_idx=j;
+                              swap(&arr[min_idx],&arr[i]);
+                              void printArray(int arr[],int size)
+                              int i;
+                              for(i=0;i<size;i++)
+                                printf("%d",arr[i]);
+                              printf("\n");
+                          }
+                          int main()
+                          {
+                              int arr[]={0,23,14,12,9};
+                              int n=sizeof(arr)
+                              sizeof(arr[0]);
+                              printArray(arr,n);
+                              void sort(int *ptr,int size);
+                              printf("\n sorted array in Ascending order n");
+                              printfArray(arr,n);
+                              return 0;
+                          }
+
+                          #include<stdio.h>
+                          #include<stdlib.h>
+                          int main()
+                          {
+                              char a[5][10]=("prateek","shubham","Arnab"};
+                              char name[]="Arnab";
+                              for(i=0;i<5;i++)
+                              {
+                                  if(strcmp(name,a[i])==0)
+                                    printf("string found");
+                              }
+                            #include<string.h>
+                            #include<stdlib.h>
+                            int main()
+                            {
+                                int x=5;
+                                char a='b';
+                                int *p=&x;
+                                char *q=&a;
+                                printf("value of x=%d,Address of x=%d",x,&x);
+                                printf("value of x==*p=%d,Address ofx==p=%d\n",*p,p);
+                                return 0;
+                            }
+
+                            #include<stdio.h>
+                            #include<stdlib.h>
+                            int main()main
+                            {
+                               int no1,no2;
+                               int *ptr1,*ptr2;
+                               printf("Enter first number\n");
+                               scanf("%d",&no2);
+                               ptr1=&no1;
+                               ptr=&no2;
+                               if(*ptr1>ptr2)
+                               {
+                                   printf("Maximum number is %d",*ptr);
+                               }
+                               else
+                               {
+                                   printf("Maximum number is %d",*ptr);
+                               }
+                               return 0;
+                            }
+
+                            #include<stdio.h>
+                            #include<stdlib.h>
+                            int main()
+                            {
+                                char str[20];
+                                int lenght;
+                                printf("\n" Enter any string:");
+                                gets(str);
+                                lenght=string_ln(str);
+                                printf("The length of the given string %s is: %d",str,lenght);
+                            }
+                            int string_ln(char *p)
+                            {
+                                int cout=0;
+                                while(*p!='\0')
+                                {
+                                    cout++;
+                                    p++;
+                                }
+                                return 0;
+                            }
+
+                            #include<stdio.h>
+                            #include<stdlib.h>
+                            int main()
+                            {
+                                char a[]="prateek";
+                                int i, count=0;
+                                for(i=0;a[i]!='\0';i++)
+                                {
+                                    if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u')
+                                        count++;
+                                }
+                                printf("Number of vowels is %d\n",count);
+                                else
+                                    printf("Number of constant is %d\n"count);
+                                return 0;
+                            }
+                            #include<stdio.h>
+                            #include<stdlib.h>
+                            int main()
+                            {
+                                int *a[i],sum=0,n;
+                                for(i=0;i<n;i++)
+                                    sum=sum+*a[i];
+                                printf("sum of number is %d\n");
+                                return 0;
+                            }
+                            #include<stdio.h>
+                            #include<stdlib.h>
+                            int main()
+                            {
+
+                            int a[]={1,2,3,4,5,6};
+                            int i;
+                            reverseprintf(a,8);
+                            for(i=size-1;i>=0;i--)
+                            {
+                                printf("%d",a[i]);
+                            }
+                            printf("\n\n");
+                            }
+                            return 0;
+                      }
+                      #include<stdio.h>
+                      #include<stdlib.h>
+                      {
+                          int *a[]={1,2,3,4,5};
+                          int i;
+                          reverseprint(a,8);
+                          for(i=size-1;i>=0;i--)
+                          {
+                              printf("%d",a[i]);
+                          }
+                          printf("\n\n");
+                      }
+                      return 0;
+                          }
